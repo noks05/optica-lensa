@@ -1245,7 +1245,7 @@
         const defaultPointSize = {
           iconImageSize: [30, 30],
           iconImageOffset: [-5, -5],
-          iconImageHref: '../img/point-map.svg'
+          iconImageHref: './img/point-map.svg'
         };
         const zoomToPoint = 15;
         let curIdPoint = _data_data_js__WEBPACK_IMPORTED_MODULE_0__.dataPoints[0].id;
@@ -1266,7 +1266,7 @@
           renderBoxAddressList(_data_data_js__WEBPACK_IMPORTED_MODULE_0__.dataPoints);
           objectManager.objects.options.set({
             iconLayout: 'default#image',
-            iconImageHref: '../img/point-map.svg',
+            iconImageHref: './img/point-map.svg',
             ...defaultPointSize,
             hideIconOnBalloonOpen: false,
             // balloonOffset: [100, 100],
@@ -1427,7 +1427,7 @@
             objectManager.objects.setObjectOptions(pointId, {
               iconImageSize: [50, 50],
               iconImageOffset: [-15, -15],
-              iconImageHref: '../img/point-map-choice.svg'
+              iconImageHref: './img/point-map-choice.svg'
             });
           }
           function onPointClick(e) {
